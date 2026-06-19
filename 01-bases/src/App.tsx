@@ -1,17 +1,29 @@
 import './App.css'
+import { AuthProvider } from './context/AuthContext'
 // import BasicTypes from './typescript/BasicTypes'
 // import ObjectLiterals from './typescript/ObjectLiterals'
 // import BasicFunctions from './typescript/BasicFunctions';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+// import LoginPage from './components/LoginPage'
+// import UsersPage from './components/UsersPage';
+import FormsPage from './components/FormsPage';
+
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center h-svh">
+    <AuthProvider>
+      <div className="flex flex-col justify-center items-center h-svh">
       <h1 className="text-4xl mb-5">React + TS</h1>
+
+
       {/* <BasicTypes /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
+      {/* <UsersPage /> */}
+      <FormsPage />
     </div>
+
+    </AuthProvider>
   )
 }
 
