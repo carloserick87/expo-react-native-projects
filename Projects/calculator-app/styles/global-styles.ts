@@ -2,18 +2,18 @@ import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/theme'
 
 export const globalStyles = StyleSheet.create({
-    background:{
+    background: {
         flex: 1,
         backgroundColor: Colors.background
     },
 
-    calculatorContainer:{
+    calculatorContainer: {
         flex: 1,
         justifyContent: 'flex-end',
         paddingBottom: 20,
     },
 
-    mainResult:{
+    mainResult: {
         color: Colors.textPrimary,
         fontSize: 70,
         textAlign: 'right',
@@ -25,5 +25,30 @@ export const globalStyles = StyleSheet.create({
         fontSize: 40,
         textAlign: 'right',
         fontWeight: '300'
+    },
+
+    row: {
+        flexDirection:'row',
+        justifyContent: 'center',
+        marginBottom: 18,
+        paddingHorizontal: 10,
+    },
+
+    button: {
+        height: 80,
+        width: 80,
+        backgroundColor: Colors.darkGray,
+        borderRadius: 100,
+        justifyContent: 'center',
+        marginHorizontal: 10,
+    },
+
+    buttonText: {
+        textAlign: 'center',
+        padding: 0.5,
+        fontSize: 30,
+        color: Colors.textPrimary,
+        fontWeight: '300',
+        fontFamily: 'Sans_Japanese'
     }
-})
+});
