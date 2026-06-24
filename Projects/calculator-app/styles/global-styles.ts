@@ -40,13 +40,16 @@ export const globalStyles = StyleSheet.create({
         backgroundColor: Colors.darkGray,
         borderRadius: 100,
         justifyContent: 'center',
+        alignItems: 'center',
         marginHorizontal: 10,
     },
 
     buttonText: {
         textAlign: 'center',
-        padding: 0.5,
+        includeFontPadding: false,
+        textAlignVertical: 'center',
         fontSize: 30,
+        lineHeight: 34,
         color: Colors.textPrimary,
         fontWeight: '300',
         fontFamily: 'Sans_Japanese'
