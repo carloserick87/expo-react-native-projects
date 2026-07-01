@@ -6,7 +6,7 @@ const StackLayout = () => {
    <Stack 
      screenOptions={{
         headerShadowVisible: false,
-        contentStyle: { backgroundColor: 'white' }
+        contentStyle: { backgroundColor: 'white' },
      }}>
 
         
