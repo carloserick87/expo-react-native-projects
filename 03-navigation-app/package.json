@@ -5,6 +5,7 @@
   "dependencies": {
     "@expo/ui": "~56.0.18",
     "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/drawer": "^7.12.4",
     "babel-preset-expo": "^56.0.15",
     "expo": "~56.0.12",
     "expo-constants": "~56.0.18",
