@@ -44,3 +44,6 @@ example
 
 # Visual Studio Code Plugins
 .vscode/
+
+#.idea
+.idea
