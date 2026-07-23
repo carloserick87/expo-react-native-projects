@@ -20,10 +20,10 @@ const MainSlideshow = ({ movies }:Props) => {
             data={ movies }
                   renderItem={({ item })=><MoviePoster id={item.id} poster={item.poster} smallPoster={false} />}
                   width={ 200}
-                  height={350}
+                  height={300}
                   style={{
                       width: width,
-                      height: 350,
+                      height: 300,
                       justifyContent:'center',
                       alignItems:'center',
                   }}
