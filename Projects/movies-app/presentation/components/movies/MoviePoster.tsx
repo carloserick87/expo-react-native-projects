@@ -1,5 +1,4 @@
-import { View, Text, Pressable, Image,  } from 'react-native';
-import { Movie } from '@/infrastructure/interfaces/movie.interfaces'
+import { Pressable, Image,  } from 'react-native';
 import {router} from "expo-router";
 
 interface Props {
